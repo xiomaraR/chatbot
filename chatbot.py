@@ -16,7 +16,9 @@ def send_text():
         display_text.insert(END, "Bot: Hi! What's up?\n", "bot")
     elif "how are you" in user_input:
         display_text.insert(END, "Bot: I'm just a bot!\n", "bot")
-    elif "do you have a name" or "what is your name" in user_input:
+    elif "do you have a name" in user_input:
+        display_text.insert(END, "Bot: I don't have one. Give me a name!\n", "bot")
+    elif "what is your name" in user_input:
         display_text.insert(END, "Bot: I don't have one. Give me a name!\n", "bot")
     else:
         display_text.insert(END, "Bot: I'm not sure how to reply...\n", "bot")
