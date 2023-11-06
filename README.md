@@ -8,7 +8,7 @@ Ask 'how are you?' or ask for it's name!
 
 # Future Plans
 
-Of course! Here are a couple of bullet points outlining your plans to extend your chatbot into a more advanced AI chatbot with NLP, tokenization, neural networks, and human-like qualities:
+Plans to extend My Robot Friend into a more advanced AI chatbot with NLP, tokenization, neural networks, and human-like qualities:
 
 - **Enhance Natural Language Processing (NLP):**
 
