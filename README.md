@@ -36,7 +36,7 @@ Poetry installed globally: https://python-poetry.org/docs/
 
 3. **Run the chatbot:**
    ```bash
-   # to execute the script withing the environment
+   # to execute the script within the environment
    poetry run python main.py
    ```
 
