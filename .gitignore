@@ -175,3 +175,6 @@ CVS
 Backup[ ]of[ ]*.pages/
 Backup[ ]of[ ]*.key/
 Backup[ ]of[ ]*.numbers/
+
+futureplan.md
+old_code.py

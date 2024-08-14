@@ -1,40 +1,47 @@
-# My Robot Friend
+## My Robo Friend - A Simple Chatbot
 
-A desktop rule-based chatbot proficient in identifying specific keywords within user inputs to generate tailored responses. So far the bot can identify several greetings, and respond to some specific queries.
+This is a basic chatbot application built using Python's Tkinter library. It provides a simple chat interface where users can type messages and receive responses from the bot.
+
+Right now, it's learning to be polite: it can say hello back to you in different ways.
+
+### Features
+
+- **Keyword-based Responses:** The chatbot uses a rule-based approach to identify keywords in user inputs and generate pre-defined responses.
+- **Greeting Recognition:** It can recognize various greetings like "hi," "hello," "namaste," and respond accordingly.
+- **Limited Conversation:** The bot can handle a few basic queries beyond greetings, like "how are you?" or questions about its name.
+- **Simple GUI:** The application uses Tkinter to create a user-friendly interface with input and output text areas.
+
+### How to Run
+
+_Prerequisites:_
+
+Python 3.x installed on your system.
+
+Poetry installed globally: https://python-poetry.org/docs/
+
+1. **After cloning, navigate to the project directory:**
+
+   ```bash
+   cd chat_bot
+   ```
+
+2. **Install dependencies:**
+
+   Poetry manages dependencies in a virtual environment automatically. Run the following commands to activate virtualenv and install all required packages:
+
+   ```bash
+      poetry shell
+      poetry install
+   ```
+
+3. **Run the chatbot:**
+   ```bash
+   # to execute the script withing the environment
+   poetry run python main.py
+   ```
 
 Ask 'how are you?' or ask for it's name!
 
-**Used Python**
+### Customization
 
-# Future Plans
-
-Of course! Here are a couple of bullet points outlining your plans to extend your chatbot into a more advanced AI chatbot with NLP, tokenization, neural networks, and human-like qualities:
-
-- **Enhance Natural Language Processing (NLP):**
-
-  - Implement advanced NLP techniques to enable the chatbot to understand context, sentiment, and nuances in user input.
-  - Incorporate named entity recognition and sentiment analysis to provide more context-aware and emotionally intelligent responses.
-
-- **Utilize Tokenization and Neural Networks:**
-
-  - Employ tokenization methods to break down text inputs into meaningful units, facilitating deeper understanding.
-  - Integrate neural networks, such as recurrent neural networks (RNNs) or transformer models, to improve the chatbot's ability to generate coherent and contextually relevant responses.
-
-- **Implement Machine Learning Models:**
-
-  - Train the chatbot using machine learning models, allowing it to learn from user interactions and continuously improve its responses.
-  - Explore reinforcement learning techniques to make the chatbot adapt and refine its conversational abilities over time.
-
-- **Develop Human-like Conversational Skills:**
-
-  - Focus on improving the chatbot's ability to hold natural and engaging conversations with users.
-  - Incorporate dialogue generation models to ensure that responses sound more human-like and less robotic.
-
-- **Personalization and User Adaptation:**
-
-  - Implement algorithms for user profiling and personalization to tailor responses based on individual user preferences and historical interactions.
-  - Enable the chatbot to remember past conversations and refer back to them for continuity and improved user engagement.
-
-- **Continuous Evaluation and Feedback Loop:**
-  - Establish a feedback mechanism to collect user feedback and use it to fine-tune the chatbot's responses and performance.
-  - Regularly evaluate and benchmark the chatbot against human-like conversational benchmarks to track progress and set improvement goals.
+You can easily customize the chatbot's responses and add new keywords by modifying the `greetings` list and the conditional statements within the `get_response` function. Feel free to expand the bot's capabilities by adding more rules and interactions.

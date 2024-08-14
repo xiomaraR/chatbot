@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "chat-bot"
+version = "0.2.0"
+description = "This is a basic chatbot application built using Python's Tkinter library."
+authors = ["Your Name <you@example.com>"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
